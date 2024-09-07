@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Media Queries */
+
+/* Como quiero que se vea cuando es desktop */
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:transparent;
+    
+}
+
+.logo {
+    width: 453px;
+    height: 125px;
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+div.logo img {
+    width:40%;
+    height:40%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+nav ul {
+    flex-direction: row;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:blueviolet;
+}
+
+body {
+
+    background-color:#ffffff;
+
+}
+
+.tienda{
+
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        padding-bottom: 50px;
+}
+        
+    
+    
+ 
+    div.tienda h2{
+        font-size: 50px;
+        color:#8a2be2;
+        font-family: "Montserrat";
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    
+    }
+
+    div.tiendarow{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container1{
+        display: flex;
+        flex-wrap:nowrap;
+        flex-direction:row;
+        gap: 1em;
+    
+    }
+    
+    .container1 img{
+        width: 60%;
+    }
+        
+    .container1 h4{
+        font-size: 30px;
+        color:blueviolet;
+        font-family: "Montserrat";
+        text-align: left;
+    }
+    
+    .container1 p{
+        font-size: 20px;
+        color:blueviolet;
+        font-family: "Montserrat";
+        text-align: left;
+    }
+    
+    .container1 div{
+        background-color: rgb(255, 255, 255);
+        
+    }
+    
+
+}
+
+footer{
+    background-color:#8a2be2;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+    align-items: center;
+
+    
+}
+
+footer h4{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Como quiero que se vea cuando es mobile */
+
+@media (max-width: 767px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 453px;
+        height: 125px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.logo img {
+        width:80%;
+        height:80%;
+    }
+
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin-top: 20px;
+    }
+
+   

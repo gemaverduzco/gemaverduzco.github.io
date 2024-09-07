@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Media Queries */
+
+/* Como quiero que se vea cuando es desktop */
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:transparent;
+    align-items: center;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.logotipo {
+    width: 200px;
+   
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 10px;
+}
+
+nav ul {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Montserrat";
+}
+
+div.banner{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    padding-bottom: 150px;
+    padding-top: 80px;
+}
+
+div.banner h1{
+    font-size: 150px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Delicious Handrawn" ;
+    
+}
+
+div.banner p{
+    font-size: 50px;
+    color: #ffffff;
+    font-family: "Montserrat" ;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    
+}
+
+
+
+
+.presentacion{
+    display: flex;
+    flex-direction:column;
+    background-color: blueviolet;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+.presentacion h1{
+    font-size: 70px;
+    text-align:center;
+    color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-family: "Delicious Handrawn"
+    
+
+}
+
+.presentacion p{
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Montserrat" ;
+    padding: 20px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+}
+
+
+div.tienda{
+    align-items: center;
+    background-color: rgb(252, 181, 76);
+    padding-bottom: 50px;
+    
+
+}
+
+
+div.tienda h2{
+    font-size: 50px;
+    color:#ffffff;
+    font-family: "Montserrat";
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+
+}
+
+.container{
+    display: flex;
+    flex-wrap:nowrap;
+    flex-direction:row;
+    gap: 1em;
+
+}
+
+.container img{
+    width: 60%;
+}
+    
+.container h4{
+    font-size: 30px;
+    color:blueviolet;
+    font-family: "Montserrat";
+    text-align: left;
+}
+
+.container p{
+    font-size: 20px;
+    color:blueviolet;
+    font-family: "Montserrat";
+    text-align: left;
+}
+
+.container div{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.vertiendaboton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.vertiendaboton button{
+    display: flex;
+    align-items: center;
+   
+   
+}
+
+.button_slide {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Montserrat"
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #8a2be2;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+
+  .slide_right:hover {
+    box-shadow: inset 400px 0 0 0 #8a2be2;
+  }
+
+  div.galeria{
+    align-items: center;
+    background-color:#8a2be2;
+    padding-top: 20px;
+    
+
+}
+
+
+div.galeria h2{
+    font-size: 50px;
+    color:rgb(255, 255, 255);
+    font-family: "Montserrat";
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div.contacto{
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 50px;
+    padding-top: 30px;
+
+}
+
+
+div.contacto h2{
+    font-size: 50px;
+    color:#8a2be2;
+    font-family: "Montserrat";
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+
+}
+
+div.contacto p{
+    font-size: 20px;
+    color:#8a2be2;
+    font-family: "Montserrat" ;
+    text-align: center;
+
+}
+
+div.btncontacto{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+}
+
+
+footer{
+    background-color:#8a2be2;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+    align-items: center;
+
+    
+}
+
+footer h4{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+body {
+
+    background-color:#8a2be2;
+    background-image:url(./imagenes/baner1.png);
+    background-size: cover;
+}
+/* Como quiero que se vea cuando es mobile */
+
+@media (max-width: 767px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logotipo {
+        width: 150px;
+    
+    }
+
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin-top: 20px;
+    }
+
+    .container{
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction:column;
+        align-items: center;
+}
+    
+    }
+
+    .container img{
+        width: 60%;
+    
+    }
+        
+    .container h4{
+        font-size: 30px;
+        color:blueviolet;
+        font-family: "Montserrat";
+        text-align: left;
+    }
+    
+    .container p{
+        font-size: 20px;
+        color:blueviolet;
+        font-family: "Montserrat";
+        text-align: left;
+    }
+    
+    .container div{
+        background-color: rgb(255, 255, 255);
+        
+      
+    }
+    
+
+    div.btncontacto{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        row-gap: 1em;
+}
+
+
+
+
+
+body {
+
+    background-color:#8a2be2;
+    background-image:url(./imagenes/baner1.png);
+    background-size:cover;
+
+}
+
+
+div.card{
+    display: flex;
+   width: 300px;
+
+}
+
