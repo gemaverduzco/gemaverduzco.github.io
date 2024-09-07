@@ -65,7 +65,7 @@ div.banner{
 }
 
 div.banner h1{
-    font-size: 150px;
+    font-size: 25vw;
     text-align: center;
     color: #ffffff;
     font-family: "Delicious Handrawn" ;
@@ -73,12 +73,12 @@ div.banner h1{
 }
 
 div.banner p{
-    font-size: 50px;
+    font-size: 8vw;
     color: #ffffff;
     font-family: "Montserrat" ;
     text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 40px;
     
 }
@@ -95,18 +95,20 @@ div.banner p{
 }
 
 .presentacion h1{
-    font-size: 70px;
+    font-size: 10vw;
     text-align:center;
     color: #ffffff;
-    padding-top: 40px;
+    padding-top: 10px;
     padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
     font-family: "Delicious Handrawn"
     
 
 }
 
 .presentacion p{
-    font-size: 30px;
+    font-size: 3vw;
     color: #ffffff;
     font-family: "Montserrat" ;
     padding: 20px;
@@ -232,7 +234,7 @@ div.contacto{
 
 
 div.contacto h2{
-    font-size: 50px;
+    font-size: 10vw;
     color:#8a2be2;
     font-family: "Montserrat";
     text-align: center;
@@ -243,7 +245,7 @@ div.contacto h2{
 }
 
 div.contacto p{
-    font-size: 20px;
+    font-size: 5vw;
     color:#8a2be2;
     font-family: "Montserrat" ;
     text-align: center;
@@ -365,16 +367,6 @@ body {
 }
 
 
-
-
-
-body {
-
-    background-color:#8a2be2;
-    background-image:url(./imagenes/baner1.png);
-    background-size:cover;
-
-}
 
 
 div.card{
